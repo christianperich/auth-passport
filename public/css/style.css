@@ -1,0 +1,73 @@
+:root {
+  --primary: rgb(68, 67, 83);
+  --secondary: rgb(182, 99, 127);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: beige;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+.formulario {
+  margin: auto;
+  border: 1px solid gray;
+  width: 30%;
+  margin-top: 3rem;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.btn {
+  background-color: var(--secondary);
+  color: white;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: all 0.2s;
+  border: 1px solid gray;
+}
+
+.btn:hover {
+  background-color: var(--primary);
+}
+
+.actions {
+  margin-top: 20px;
+}
+
+form {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  padding: 4px;
+  margin: 4px;
+  border-radius: 3px;
+  border: 1px solid gray;
+}
+
+label, .messages {
+  font-size: 0.8em;
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondary);
+}

@@ -1,0 +1,16 @@
+<div class="formulario">
+  <h1>Register</h1>
+  <%- include ('./partials/messages') %>
+  <form action="/users/register" method="post">
+    <label for="name">Nombre</label>
+    <input type="text" name="name" id="name">
+    <label for="email">Correo Electrónico</label>
+    <input type="email" name="email" id="email">
+    <label for="password1">Contraseña</label>
+    <input type="password" name="password1" id="password1">
+    <label for="password2">Confirmar Contraseña</label>
+    <input type="password" name="password2" id="password2">
+    <button type="submit" class="btn">Register</button>
+  </form>  
+  <p>¿Ya estás registrado? <a href="/users/login">Loguéate</a></p>
+</div>
